@@ -1,0 +1,6 @@
+---
+- include: install-vsftpd.yml
+  notify:
+   - restart vsftpd
+  become: true
+  become_user: root

@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Andre Aliaman
+  description: This is for setup initial Ubuntu Server
+  company:  myself
+  license: GPLv3
+  min_ansible_version: 2.4
+  github_branch: master
+  platforms:
+   - name: Ubuntu
+     versions:
+     - all
+     - 18.04
+  galaxy_tags: [ftp, vsftpd, server, configuration]
+
+dependencies: []
+  

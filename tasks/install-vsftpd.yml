@@ -1,0 +1,8 @@
+---
+- name: Install vsftpd
+  apt: 
+    name: ['vsftpd']
+    update_cache: yes
+    state: present
+  become_method: sudo
+  become: yes
